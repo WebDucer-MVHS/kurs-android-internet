@@ -2,6 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
 	<item
+		android:id="@+id/opt_reload"
+		android:title="Aktualisieren">
+	</item>
+	<item
 		android:id="@+id/opt_socket"
 		android:title="Sockets">
 	</item>
