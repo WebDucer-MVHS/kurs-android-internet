@@ -84,6 +84,10 @@ public class BackgroundLoader extends AsyncTask<String, Integer, String> {
           // Verarbeitung abbrechen
           this.cancel(true);
         }
+
+        // Verbindung trennen
+        conn.disconnect();
+
       } catch (MalformedURLException e) {
         e.printStackTrace();
         // Verarbeitung abbrechen
